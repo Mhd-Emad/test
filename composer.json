@@ -12,8 +12,8 @@
       ["action.php", "shopgo/embc/action.php"],
       ["login.php", "shopgo/embc/login.php"],
       ["logout.php", "shopgo/embc/logout.php"],
-      ["css", "shopgo/css"],
-      ["inc", "shopgo/inc"]
+      ["css", "shopgo/embc/css"],
+      ["inc", "shopgo/embc/inc"]
     ]
   }
 }
