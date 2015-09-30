@@ -1,0 +1,19 @@
+{
+  "name": "shopgo/Extensions Manager",
+  "type": "magento-module",
+  "description": "Shopgo tool to manage the extensions by composer",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "extra": {
+    "magento-root-dir": "./",
+    "map": [
+      ["index.php", "shopgo/embc/index.php"],
+      ["action.php", "shopgo/embc/action.php"],
+      ["login.php", "shopgo/embc/login.php"],
+      ["logout.php", "shopgo/embc/logout.php"],
+      ["css", "shopgo/css"],
+      ["inc", "shopgo/inc"]
+    ]
+  }
+}
