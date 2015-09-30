@@ -95,6 +95,7 @@ function delete($extName)
 
 
         $extCountAfter = extCount();
+        $res           = $res.shell_exec('find . ! -path "./app/etc/modules/disabled/*" -type l -xtype l -delete');
         $result[0]     = $res;
 
         if ($extCountAfter<$extCount) {
